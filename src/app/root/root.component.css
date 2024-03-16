@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+  }
+  .m-h-item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(87, 83, 83);
+    font-family: arabicFontSemeiBold;
+    margin-top: 20px;
+  }
+  
+  footer {
+    padding-top: 40px;
+    /* height: 500px; */
+    padding-bottom: 80px;
+    background-color: rgb(235 235 236);
+  }
+  .f1title {
+    font-weight: bold;
+    color: rgb(143 42 81) !important;
+  }
+  .copy-right {
+    margin-top: 30px;
+    color: gray;
+    font-family: arabicFontSemeiBold;
+  }
+  
+  
+  /* Desktop */
+  @media (max-width: 9000px) and (min-width: 940px) {
+    .mobile-header {
+      display: none;
+    }
+    .desktop-header {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      background-color: white;
+    }
+    .header-item-container1 {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 45vw;
+      margin-left: 15vw;
+    }
+  
+    .header-item-container2 {
+      /* background-color: blanchedalmond; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30vw;
+    }
+    .desktop-header a {
+      text-decoration: none;
+      color: rgb(87, 83, 83);
+      font-family: arabicFontSemeiBold;
+    }
+    .with-header {
+      height: 60px;
+    }
+    /* Content 1 Design */
+    .content1-conatainer{
+      position: relative;
+      
+    }
+    /* Footer Design */
+  
+    .mobile-footer {
+      display: none;
+    }
+    .footer1 {
+      display: flex;
+      margin-left: 15vw;
+      /* padding: 10px; */
+    }
+    .footer2 {
+      margin-left: 15vw;
+    }
+    .footer3 {
+      margin-bottom: 10px;
+      margin-left: 15vw;
+    }
+    .footer2 > a {
+      margin-right: 15px;
+    }
+    .f1 > div {
+      /* font-size: large; */
+      margin-bottom: 8px;
+    }
+    .f1 > div > a {
+      /* font-size: 1.1vw; */
+      text-decoration: none;
+      color: rgb(128 120 132);
+    }
+  }
+  /* Mobile */
+  @media only screen and (max-width: 940px) {
+    .desktop-header {
+      display: none;
+    }
+    .mobile-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 18px;
+    }
+    .desktop-footer {
+      display: none;
+    }
+  
+    .m-footer1 {
+      margin-left: 15vw;
+      height: 60px;
+    }
+    .m-footer2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 15vw;
+    }
+    .arrow {
+      padding-right: 60px;
+      height: fit-content;
+    }
+    .g-m-w {
+      margin-left: 15vw;
+    }
+    .f-a > div > a {
+      /* font-size: 1.1vw; */
+      text-decoration: none;
+      color: rgb(128 120 132);
+    }
+    .f-a > div  {
+      margin-top: 10px;
+    }
+    .m-footer-icons > a {
+      margin-right: 10px;
+    }
+   
+  }
+  
+  @font-face {
+    font-family: "arabicFont"; /*a name to be used later*/
+    src: url("../../assets/font/ExpoArabic-Medium.ttf"); /*URL to font*/
+  }
+  @font-face {
+    font-family: "arabicFontSemeiBold"; /*a name to be used later*/
+    src: url("../../assets/font/ExpoArabic-Book.ttf"); /*URL to font*/
+  }
+  
